@@ -1,0 +1,721 @@
+@font-face{
+  font-family: 'JetBrains Mono NL ';
+  src:url(fonts/JetBrains Mono NL.ttf);
+  font-family: 'CirrusCumulus';
+  src:url(fonts/CirrusCumulus.otf);
+
+}
+
+
+body{
+  color: blue;
+  font-family: 'JetBrains Mono NL', sans-serif;
+  font-size: 20px;
+  overflow-y: hidden;
+}
+
+.myDIV{
+  text-decoration: none;
+  color: blue;
+  display: inline;
+}
+
+
+.hide {
+  display: none;
+  margin-top:11%;
+font-family: 'CirrusCumulus';
+    margin-left: -6%;
+    margin-top: 10%;
+
+}
+
+.myDIV:hover + .hide {
+
+  position: absolute;
+  font-size: 10em;
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: white;
+  display: block;
+  z-index: 1;
+  line-height: 1em;
+  display: inline;
+  text-align: center;
+
+}
+
+video {
+width: 100%;
+}
+
+img{
+  width: 100%;
+}
+
+iframe{
+  width: 70%;
+  height: 80%;
+  margin-left: 3%;
+
+}
+
+
+
+p{  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+input{
+  margin-left: 3%;
+  margin-right: 0.5%;
+  position: relative;
+}
+
+#blank1{
+  margin-left: 3.5%;
+}
+
+#blank2{
+  margin-left: 10%;
+}
+
+#blank3{
+  margin-left: -2.2%;
+}
+
+#blank4{
+  margin-left: 7.5%;
+}
+#blank5{
+  margin-left: 9.6%;
+}
+
+#blank6{
+  margin-left: 23.5%;
+}
+
+#blank7{
+  margin-left: 8.2%;
+  }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  background-color: blue;
+  padding: 1px;
+  margin-top: 0;
+
+}
+
+
+.griditem {
+  background-color: white;
+  border: 1px solid blue;
+  font-size: 30px;
+  margin-left: 0;
+  position: relative;
+  padding: 1.5px 1.5px 1.5px 1.5px;
+}
+
+h1{
+  font-size: 14px;
+  position: absolute;
+  font-weight: 400;
+  bottom: -3%;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+}
+
+footer{
+  margin-top: 0%;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  color: white;
+  width: 21%;
+  padding: 10px 0;
+  height: 150px;
+  margin-top: -43%;
+  margin-left: 75%;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* The Close Button */
+.close2 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close2:hover,
+.close2:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close3 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close3:hover,
+.close3:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close4 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close4:hover,
+.close4:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close5 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close5:hover,
+.close5:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close6 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close6:hover,
+.close6:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.close7 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close7:hover,
+.close7:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close8 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close8:hover,
+.close8:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close9 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close9:hover,
+.close9:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.close10 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close10:hover,
+.close10:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close11 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close11:hover,
+.close11:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.close12 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close12:hover,
+.close12:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.close13 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close13:hover,
+.close13:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close14 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close14:hover,
+.close14:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close15 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close15:hover,
+.close15:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.close16 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close16:hover,
+.close16:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close17 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close17:hover,
+.close17:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.close18 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close18:hover,
+.close18:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close19 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close19:hover,
+.close19:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close20 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close20:hover,
+.close20:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close21 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close21:hover,
+.close21:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close22 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close22:hover,
+.close22:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.close23 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close23:hover,
+.close23:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close24 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close24:hover,
+.close24:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.close25 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close25:hover,
+.close25:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.close26 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close26:hover,
+.close26:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close27 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close27:hover,
+.close27:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.close28 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close28:hover,
+.close28:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close29 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close29:hover,
+.close29:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.close30 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close30:hover,
+.close30:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+    
