@@ -53,12 +53,13 @@ img{
   width: 100%;
 }
 
-iframe{
-  width: 70%;
-  height: 80%;
-  margin-left: 3%;
 
+iframe{
+  width: 100%;
+  height: 80%;
+  margin-top: -4%;
 }
+
 
 
 
@@ -164,15 +165,523 @@ footer{
 /* Caption of Modal Image */
 #caption {
   color: white;
-  width: 21%;
+  width: 95%;
   padding: 10px 0;
   height: 150px;
-  margin-top: -43%;
-  margin-left: 75%;
+  top: 0;
+  margin-left: 1%;
+
 }
 
 /* Add Animation */
 .modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+#caption2 {
+  color: white;
+  width: 95%;
+  padding: 10px 0;
+  height: 150px;
+  top: 0;
+  margin-left: 1%;
+
+}
+
+/* Add Animation */
+.modal-content, #caption2 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+
+#caption3 {
+  color: white;
+  width: 95%;
+  padding: 10px 0;
+  height: 150px;
+  top: 0;
+  margin-left: 1%;
+
+}
+
+/* Add Animation */
+.modal-content, #caption3 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+
+#caption4 {
+  color: white;
+  width: 95%;
+  padding: 10px 0;
+  height: 150px;
+  top: 0;
+  margin-left: 1%;
+
+}
+
+/* Add Animation */
+.modal-content, #caption4 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+#caption5 {
+  color: white;
+  width: 95%;
+  padding: 10px 0;
+  height: 150px;
+  top: 0;
+  margin-left: 1%;
+
+}
+
+/* Add Animation */
+.modal-content, #caption5 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+#caption6 {
+  color: white;
+  width: 95%;
+  padding: 10px 0;
+  height: 150px;
+  top: 0;
+  margin-left: 1%;
+
+}
+
+/* Add Animation */
+.modal-content, #captio6 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+#caption7 {
+  color: white;
+  width: 95%;
+  padding: 10px 0;
+  height: 150px;
+  top: 0;
+  margin-left: 1%;
+
+}
+
+/* Add Animation */
+.modal-content, #caption7 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+#caption8 {
+  color: white;
+  width: 95%;
+  padding: 10px 0;
+  height: 150px;
+  top: 0;
+  margin-left: 1%;
+
+}
+
+/* Add Animation */
+.modal-content, #caption8 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+#caption9 {
+  color: white;
+  width: 95%;
+  padding: 10px 0;
+  height: 150px;
+  top: 0;
+  margin-left: 1%;
+
+}
+
+/* Add Animation */
+.modal-content, #caption9 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+#caption10 {
+  color: white;
+  width: 95%;
+  padding: 10px 0;
+  height: 150px;
+  top: 0;
+  margin-left: 1%;
+
+}
+
+/* Add Animation */
+.modal-content, #caption10 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+#caption11 {
+  color: white;
+  width: 95%;
+  padding: 10px 0;
+  height: 150px;
+  top: 0;
+  margin-left: 1%;
+
+}
+
+.modal-content, #caption11 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+#caption12 {
+  color: white;
+  width: 95%;
+  padding: 10px 0;
+  height: 150px;
+  top: 0;
+  margin-left: 1%;
+
+}
+
+/* Add Animation */
+.modal-content, #caption12 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+#caption13 {
+  color: white;
+  width: 95%;
+  padding: 10px 0;
+  height: 150px;
+  top: 0;
+  margin-left: 1%;
+
+}
+
+/* Add Animation */
+.modal-content, #caption13 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+#caption14 {
+  color: white;
+  width: 95%;
+  padding: 10px 0;
+  height: 150px;
+  top: 0;
+  margin-left: 1%;
+
+}
+
+/* Add Animation */
+.modal-content, #caption14 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+#caption15 {
+  color: white;
+  width: 95%;
+  padding: 10px 0;
+  height: 150px;
+  top: 0;
+  margin-left: 1%;
+
+}
+
+/* Add Animation */
+.modal-content, #caption15 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+#caption16 {
+  color: white;
+  width: 95%;
+  padding: 10px 0;
+  height: 150px;
+  top: 0;
+  margin-left: 1%;
+
+}
+
+/* Add Animation */
+.modal-content, #caption16 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+#caption17 {
+  color: white;
+  width: 95%;
+  padding: 10px 0;
+  height: 150px;
+  top: 0;
+  margin-left: 1%;
+
+}
+
+/* Add Animation */
+.modal-content, #caption17 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+#caption18 {
+  color: white;
+  width: 95%;
+  padding: 10px 0;
+  height: 150px;
+  top: 0;
+  margin-left: 1%;
+
+}
+
+/* Add Animation */
+.modal-content, #caption19 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+#caption20 {
+  color: white;
+  width: 95%;
+  padding: 10px 0;
+  height: 150px;
+  top: 0;
+  margin-left: 1%;
+
+}
+
+/* Add Animation */
+.modal-content, #caption20 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+#caption21 {
+  color: white;
+  width: 95%;
+  padding: 10px 0;
+  height: 150px;
+  top: 0;
+  margin-left: 1%;
+
+}
+
+/* Add Animation */
+.modal-content, #caption21 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+#caption22 {
+  color: white;
+  width: 95%;
+  padding: 10px 0;
+  height: 150px;
+  top: 0;
+  margin-left: 1%;
+
+}
+
+/* Add Animation */
+.modal-content, #caption22 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+#caption23 {
+  color: white;
+  width: 95%;
+  padding: 10px 0;
+  height: 150px;
+  top: 0;
+  margin-left: 1%;
+
+}
+
+/* Add Animation */
+.modal-content, #caption23 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+#caption24 {
+  color: white;
+  width: 95%;
+  padding: 10px 0;
+  height: 150px;
+  top: 0;
+  margin-left: 1%;
+
+}
+
+/* Add Animation */
+.modal-content, #caption24 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+
+#caption25 {
+  color: white;
+  width: 95%;
+  padding: 10px 0;
+  height: 150px;
+  top: 0;
+  margin-left: 1%;
+
+}
+
+/* Add Animation */
+.modal-content, #caption25 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+#caption26 {
+  color: white;
+  width: 95%;
+  padding: 10px 0;
+  height: 150px;
+  top: 0;
+  margin-left: 1%;
+
+}
+
+/* Add Animation */
+.modal-content, #caption26 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+
+#caption27 {
+  color: white;
+  width: 95%;
+  padding: 10px 0;
+  height: 150px;
+  top: 0;
+  margin-left: 1%;
+
+}
+
+/* Add Animation */
+.modal-content, #caption27{  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+#caption28 {
+  color: white;
+  width: 95%;
+  padding: 10px 0;
+  height: 150px;
+  top: 0;
+  margin-left: 1%;
+
+}
+
+/* Add Animation */
+.modal-content, #caption28 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+
+#caption29 {
+  color: white;
+  width: 95%;
+  padding: 10px 0;
+  height: 150px;
+  top: 0;
+  margin-left: 1%;
+
+}
+
+/* Add Animation */
+.modal-content, #caption29 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+#caption30 {
+  color: white;
+  width: 95%;
+  padding: 10px 0;
+  height: 150px;
+  top: 0;
+  margin-left: 1%;
+
+}
+
+/* Add Animation */
+.modal-content, #caption30 {  
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
